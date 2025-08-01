@@ -2,7 +2,7 @@
 
 A mobile-first restaurant ordering application for Jimmy's Diner that allows customers to order food and complete the payment process.
 
-![Restaurant Ordering App Demo](add-your-gif-here.gif)
+![Restaurant Ordering App Demo](https://github.com/Elikyals/restaurant-ordering-app/blob/main/restaurant-ordering-app.gif)
 
 ## Features
 
