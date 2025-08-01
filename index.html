@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <!-- CSS Sheet -->
+        <link rel="stylesheet" href="index.css">
+        <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Smythe&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header role="img" aria-label="Juice hamburger">
+            <h1 class="title">Jimmy's Diner</h1>
+            <h2 class="jingle">The best burgers and pizzas in town.</h2>
+        </header>
+        <main id="main">
+            <section class="menu" id="menu"></section>
+            <section class="order-details" id="order-details"></section>
+        </main>
+        <section class="payment" id="payment-tab">
+            <button  class="cancel-btn" id="cancel-btn">X</button>
+            <p class="payment-title">Enter card details</p>
+            <form id="payment-form">
+                <input id="name" 
+                    type="text" 
+                    placeholder="Enter your name"
+                    required>
+                <input type="text"
+                    placeholder="Enter card number"
+                    pattern="^(\d{4}[- ]?){3}\d{4}$"
+                    maxlength="19"
+                    title="Should be in this format: (1234 5678 9012 3456)"
+                    required>
+                <input type="text" 
+                    pattern="[0-9]{3}" 
+                    placeholder="Enter CVV"
+                    title="Should be in this format: (123)"
+                    required>
+                <button class="payment-btn" id="payment-btn" type="submit">Pay</button>
+            </form>
+        </section>
+	<script src="index.js" type="module"></script>
+    </body>
+</html>
+

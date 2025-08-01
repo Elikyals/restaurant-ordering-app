@@ -1,0 +1,184 @@
+body {
+    margin: 0 auto;
+    width: 400px;
+    min-height: 800px;
+    font-family: "Smythe", system-ui;
+    font-style: normal;
+    color: black;
+} 
+header {
+    display: block;
+    height: 130px;
+    background-image: url('image/burger-background.jpg');
+    background-size: cover;
+    background-position: 70% 65%;
+
+}
+.title, .jingle {
+    color: white;
+    margin: 0;
+    padding-left: 32px;
+    font-weight: 300;
+}
+.title {
+    font-size: 28px;
+    padding-top: 24px;
+    
+}
+.jingle {
+    font-size: 16px;
+    padding-top: 6px;
+}
+.container {
+    padding: 20px 0 0 10px;
+}
+.menu-item{
+    display: flex;
+    gap: 20px;
+    position: relative;
+}
+.food-img {
+    font-size: 64px;
+}
+.food-desc {
+    padding-top: 12px;
+}
+.food-name, .total-price-tag {
+    font-size: 24px;
+    font-weight: 300;
+}
+.food-ingredients, .remove-btn{
+    font-size: 12px;
+    color: #8B8B8B;
+}
+h3, p {
+    margin: 0;
+    padding-bottom: 4px;
+}
+.add-to-cart-btn {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    border: 1.5px solid #DEDEDE;
+    background-color: white;
+    font-size: 24px;
+    color: #3C3C3C;
+    cursor: pointer;
+    position: absolute;
+    right: 32px;
+    top: 16px;
+}
+.add-to-cart-btn:hover {
+    border: 1.5px solid #16DB99;
+}
+.hline {
+    width: 90%;
+    border-bottom: 1px solid #D2D2D2;
+    margin: 28px auto 0 auto;
+}
+.order-title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+}
+.ordered-items, .amount-details {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 32px;
+}
+.ordered-items-inner {
+    display: flex;
+    gap: 10px
+}
+.total {
+    margin-bottom: 32px;
+}
+.remove-btn {
+    border-style: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+.amount-details {
+    margin-top: 10px;
+}
+.darken-line {
+    border-bottom: 2px solid #393333;
+}
+.complete-order-btn  {
+    display: block;
+    padding: 15px 135px;
+    margin: 0 auto 40px auto;
+    border: none;
+    color: white;
+    background-color: #16DB99;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.complete-order-btn:hover {
+    background-color: #358a6c;
+}
+.payment {
+    display: none;
+    text-align: center;
+    width: 300px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 5px 5px 30px 5px #757575;
+    position: fixed;
+    background-color: white;
+    top: 25%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.payment input {
+    display: block;
+    padding: 10px 0 10px 20px;
+    margin: 10px auto;
+    border: 1.3px solid #757575;
+    border-radius: 3px;
+    width: 90%;
+}
+.payment-title  {
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.payment-btn {
+    margin-top: 20px;
+    width: 90%;
+    padding: 10px 0;
+    color: white;
+    background-color: #16DB99;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.cancel-btn {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    border: 1.5px solid #DEDEDE;
+    background-color: white;
+    font-size: 12px;
+    color: #3C3C3C;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px
+}
+.cancel-btn:hover {
+    color: white;
+    background-color: #db3316;
+}
+.appreciation-msg {
+    text-align: center;
+    font-size: 24px;
+    background-color: #ECFDF5;
+    color: #065F46;
+    padding: 20px 0;
+    margin-top: 30px;
+}
